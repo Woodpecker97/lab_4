@@ -46,6 +46,10 @@ https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-predict
     -  `0` = Нет
   - `output` - целевая переменная, принимает 0 или 1 в зависимости от отсутствия предрасположенности (0) или наличия предрасположенности (1) к заболеваниям сердца.
 
+Распределение `output`:
+![](https://github.com/Woodpecker97/lab_4/blob/main/data/output.png)
+
+
 Данные не имеют пропусков, пациенты характеризуются категориальными и дискретными переменными:
 - cat_list = ['sex','exng', 'caa', 'cp', 'fbs', 'restecg', 'slp', 'thall'] 
 - con_list = ['age', 'trtbps', 'chol', 'thalachh', 'oldpeak'] 
@@ -55,6 +59,17 @@ https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-predict
 Корреляционная матрица:
 ![](https://github.com/Woodpecker97/lab_4/blob/main/data/corr.png)
 
+Countplot для категориальных переменных:
+![](https://github.com/Woodpecker97/lab_4/blob/main/data/cat.png)
+
+Для непрерывных переменных:
+![](https://github.com/Woodpecker97/lab_4/blob/main/data/age.png)
+![](https://github.com/Woodpecker97/lab_4/blob/main/data/chol.png)
+![](https://github.com/Woodpecker97/lab_4/blob/main/data/oldpeak.png)
+![](https://github.com/Woodpecker97/lab_4/blob/main/data/thalachh.png)
+![](https://github.com/Woodpecker97/lab_4/blob/main/data/trtbps.png)
+
+Видно сильное увеличение предрасположенности в районе 60 лет. Люди с большим значением thalachh (максимальный сердечный ритм) также более предрасположены.
 
 ## Модель обучения и результат, оценка качества модели
 
