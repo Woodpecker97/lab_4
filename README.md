@@ -50,6 +50,13 @@ https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-predict
 - cat_list = ['sex','exng', 'caa', 'cp', 'fbs', 'restecg', 'slp', 'thall'] 
 - con_list = ['age', 'trtbps', 'chol', 'thalachh', 'oldpeak'] 
 
+Для перехода от категориальных переменных к бинарным была применена функция `get_dummies`.
+
+Корреляционная матрица:
+https://github.com/Woodpecker97/lab_4/blob/main/data/corr.png
+
+
+
 ## Модель обучения и результат, оценка качества модели
 
 
