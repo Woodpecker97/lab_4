@@ -20,6 +20,7 @@ https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-predict
 
 ## Анализ данных, предобработка
 Данный датасет имеет следующие данные о 303 пациентах:
+
   -`age` - возраст пациента
   
   -`sex` - Пол пациента
