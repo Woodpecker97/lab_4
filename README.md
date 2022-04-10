@@ -63,6 +63,8 @@ Countplot для категориальных переменных:
 ![](https://github.com/Woodpecker97/lab_4/blob/main/data/cat.png)
 
 Для непрерывных переменных:
+
+
 ![](https://github.com/Woodpecker97/lab_4/blob/main/data/age.png)
 ![](https://github.com/Woodpecker97/lab_4/blob/main/data/chol.png)
 ![](https://github.com/Woodpecker97/lab_4/blob/main/data/oldpeak.png)
