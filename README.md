@@ -53,8 +53,7 @@ https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-predict
 Для перехода от категориальных переменных к бинарным была применена функция `get_dummies`.
 
 Корреляционная матрица:
-https://github.com/Woodpecker97/lab_4/blob/main/data/corr.png
-
+(https://github.com/Woodpecker97/lab_4/blob/main/data/corr.png)
 
 
 ## Модель обучения и результат, оценка качества модели
